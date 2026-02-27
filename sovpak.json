@@ -1,0 +1,26 @@
+{
+  "$schema": "https://sovereign.dev/schemas/package/1.0.0",
+  "id": "dns",
+  "name": "DNS Manager",
+  "version": "1.0.0",
+  "description": "DNS management — record configuration, filtering, and resolution",
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "Sovereign Infrastructure Team",
+    "url": "https://opensovereign.dev"
+  },
+  "kind": "package",
+  "taxonomy": {
+    "tier": "opt",
+    "relations": [
+      { "type": "depends", "target": "sovctl" }
+    ]
+  },
+  "tags": ["infrastructure", "networking", "dns"],
+  "upstream": null,
+  "contents": {
+    "plugin": null,
+    "gitops": null,
+    "container": null
+  }
+}
