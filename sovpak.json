@@ -1,9 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/RoxiMakesGames/sovpak/main/schema/sovpak-v3.schema.json",
+  "$schema": "https://sovereign.dev/schemas/package/4.0.0",
   "id": "dns",
   "name": "DNS Manager",
   "version": "1.0.0",
-  "description": "DNS management \u2014 record configuration, filtering, and resolution",
+  "description": "DNS management — record configuration, filtering, and resolution",
   "license": "AGPL-3.0",
   "author": {
     "name": "Sovereign Infrastructure Team",
@@ -24,10 +24,5 @@
     "networking",
     "dns"
   ],
-  "upstream": null,
-  "contents": {
-    "plugin": null,
-    "gitops": null,
-    "container": null
-  }
+  "upstream": null
 }
